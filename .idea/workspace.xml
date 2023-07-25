@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b41e764a-77ad-4f5d-b7b2-c9b9a1fd5af3" name="Changes" comment="agregué el main">
-      <changelist_data name="marco" email="pradamarco21@gmail.com" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b41e764a-77ad-4f5d-b7b2-c9b9a1fd5af3" name="Changes" comment="QuickSort.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="Laboraorio1Analisis" />
@@ -47,8 +46,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Laboraorio1Analisis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
@@ -62,6 +69,15 @@
       <option name="presentableId" value="Default" />
       <updated>1690320096637</updated>
     </task>
+    <task id="LOCAL-00001" summary="QuickSort.java">
+      <option name="closed" value="true" />
+      <created>1690323413641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690323413641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="agregué el main" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregué el main" />
+    <MESSAGE value="QuickSort.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="QuickSort.java" />
   </component>
 </project>

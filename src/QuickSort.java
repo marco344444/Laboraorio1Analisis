@@ -1,6 +1,16 @@
 public class QuickSort {
     public void sort(int[] array) {
+        long startTime = System.currentTimeMillis();
+
         quickSort(array, 0, array.length-1);
+
+        long endTime = System.currentTimeMillis();
+
+        //for (int num : array)
+        //    System.out.print(num + " ");
+
+        long elapsedTime = endTime - startTime;
+        System.out.println("\nTiempo de ejecución quicksort: " + (elapsedTime / 1000.0) + " segundos");
     }
 
     private void quickSort(int[] arr, int min, int max) {
