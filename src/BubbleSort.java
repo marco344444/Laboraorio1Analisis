@@ -1,5 +1,5 @@
 public class BubbleSort {
-    public void burbuja(int[] nums) {
+    public void sort(int[] nums) {
         long startTime = System.currentTimeMillis();
 
         int i, j, aux;

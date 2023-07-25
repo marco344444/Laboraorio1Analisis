@@ -25,6 +25,6 @@ public class Main {
         }
 
         quickSort.sort(randomNumbers);
-        bubbleSort.burbuja(randomNumbers);
+        bubbleSort.sort(randomNumbers);
     }
 }
