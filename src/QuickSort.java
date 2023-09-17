@@ -1,7 +1,7 @@
 public class QuickSort {
-    private int recursiveCalls = 0; // Contador de llamadas recursivas
+    private long recursiveCalls = 0; // Contador de llamadas recursivas
 
-    public void sort(int[] array) {
+    public Double[] sort(int[] array) {
         long startTime = System.currentTimeMillis();
 
         quickSort(array, 0, array.length - 1);
@@ -12,6 +12,8 @@ public class QuickSort {
         long elapsedTime = endTime - startTime;
         System.out.println("\nTiempo de ejecución quicksort: " + (elapsedTime / 1000.0) + " segundos");
         System.out.println("Número de llamadas recursivas: " + recursiveCalls);
+
+        return new Double[] {(elapsedTime/1000.0), (double) recursiveCalls};
     }
 
     private void quickSort(int[] arr, int min, int max) {
