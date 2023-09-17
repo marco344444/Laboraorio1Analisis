@@ -5,7 +5,7 @@ public class BinarySearch {
     }
 
     private Double[] runBinarySearchIteratively(int[] sortedArray, int key, int low, int high) {
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime(); // Usar nanoTime() en lugar de currentTimeMillis()
         int index = Integer.MAX_VALUE;
 
         while (low <= high) {
@@ -21,11 +21,9 @@ public class BinarySearch {
             }
         }
 
-        long endTime = System.currentTimeMillis();
-        long elapsedTime = endTime - startTime;
-        //if (index == Integer.MAX_VALUE) return -1;
-        //return index;
+        long endTime = System.nanoTime(); // Usar nanoTime() en lugar de currentTimeMillis()
+        double elapsedTime = (endTime - startTime) / 1e9; // Convertir a segundos
 
-        return new Double[] {elapsedTime/1000.0, (double) iterations};
+        return new Double[] {elapsedTime, (double) iterations};
     }
 }
