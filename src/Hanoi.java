@@ -9,8 +9,13 @@ public class Hanoi {
         int n;
         System.out.println("Numero de discos: ");
         n = sc.nextInt();
+
+        long startTime = System.currentTimeMillis(); // Registro del tiempo de inicio
         Hanoi(n, 1, 2, 3);
+        long endTime = System.currentTimeMillis();   // Registro del tiempo de finalización
+
         System.out.println("Número total de movimientos: " + movimientos);
+        System.out.println("Tiempo de ejecución: " + (endTime - startTime) + " milisegundos");
     }
 
     // Método Torres de Hanoi Recursivo
